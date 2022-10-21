@@ -1,12 +1,9 @@
 version: 2
 
-models:
-  - name: ecommerce
+sources:
+  - name: testkaykroo
     description: "A starter ecom model"
-    schema: "test"
-    columns:
-      - name: role_id
-        description: "The primary key for this table"
-        tests:
-          - unique
-          - not_null
+    database: "testkaykroo"
+    tables:
+      - name: role
+      - name: user_role_map
