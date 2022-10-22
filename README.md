@@ -9,5 +9,9 @@ dbt init dbt_lab
 ###### debug (CLI only): debugs dbt connections and projects 
 dbt debug
 
+
+###### test (CLI only): for test driven development
+dbt test
+
 ###### run: runs the models in a project
 dbt run
