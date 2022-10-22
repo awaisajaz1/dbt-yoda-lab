@@ -4,16 +4,16 @@ models:
   - name: my_first_dbt_model
     description: "A starter dbt model"
     columns:
-      - name: user_id
+      - name: help_topic_id
         description: "The primary key for this table"
         tests:
-          - unique
+          # - unique
           - not_null
 
   - name: my_second_dbt_model
     description: "A starter dbt model"
     columns:
-      - name: user_id
+      - name: help_topic_id
         description: "The primary key for this table"
         tests:
           - unique
