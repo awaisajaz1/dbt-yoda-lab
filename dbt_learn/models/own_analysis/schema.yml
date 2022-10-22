@@ -1,9 +1,9 @@
 version: 2
 
 sources:
-  - name: testkaykroo
+  - name: mysql
     description: "A starter ecom model"
-    database: "testkaykroo"
+    database: "mysql"
     tables:
-      - name: role
-      - name: user_role_map
+      - name: help_category
+      - name: help_relation

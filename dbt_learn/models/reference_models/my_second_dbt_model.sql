@@ -5,4 +5,4 @@
 
 select *
 from {{ ref('my_first_dbt_model') }}
-where user_id = 3
+where help_keyword_id = 3

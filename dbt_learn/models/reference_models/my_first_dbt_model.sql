@@ -17,4 +17,4 @@
 
 -- )
 
-select * from testkaykroo.user
+select * from mysql.help_relation
