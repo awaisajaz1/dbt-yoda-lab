@@ -5,5 +5,5 @@ sources:
     description: "A starter ecom model"
     database: "mysql"
     tables:
+      - name: help_topic
       - name: help_category
-      - name: help_relation
