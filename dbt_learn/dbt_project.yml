@@ -5,6 +5,9 @@ name: "dbt_learn"
 version: "1.0.0"
 config-version: 2
 
+vars:
+  current_date: "2022-11-10"
+
 # This setting configures which "profile" dbt uses for this project.
 profile: "dbt_learn"
 
