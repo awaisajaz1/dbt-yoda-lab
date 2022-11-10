@@ -18,4 +18,5 @@ dbt run
 
 
 ###### run: runs the project documentation in a browser
+dbt docs generate
 dbt docs serve
