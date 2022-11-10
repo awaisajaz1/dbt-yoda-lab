@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: mysql
     description: "A starter ecom model"
-    database: "mysql"
+    # database: "mysql"
     tables:
       - name: help_topic
       - name: help_category
