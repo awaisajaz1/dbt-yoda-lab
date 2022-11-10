@@ -20,3 +20,7 @@ dbt run
 ###### run: runs the project documentation in a browser
 dbt docs generate
 dbt docs serve
+
+
+###### run: runs the specific model
+dbt run -m <model-name>
